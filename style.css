@@ -1,0 +1,403 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+#nav_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#call_us_div {
+    display: flex;
+    align-items: center;
+}
+
+#login_div {
+    display: flex;
+    align-items: center;
+}
+
+#register_div {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cart_buttn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightskyblue;
+    color: white;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#nav_2 {
+    margin: auto;
+    padding: 1px;
+    /* width: 90%; */
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#nav_2_div_1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+#nav_2_div_2 {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_2_div_2 >input{
+    border-radius: 5px; 
+    border: transparent
+}
+
+/* main div css */
+#main {
+    /* width: 90%; */
+    margin: auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 30% 70%;
+
+}
+
+#left_child {
+    /* width: 40%; */
+    text-align: center;
+    border: 1px black;
+    background-color: lightgray;
+    padding: 2%;
+}
+
+
+
+
+
+/* phone selling area starts here */
+
+.phone-item {
+    display: flex;
+    /* margin: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px dotted black;
+}
+
+.phone-image {
+    flex: 1;
+}
+
+.phone-image img {
+    width: 80%;
+    height: auto;
+}
+
+.phone-details {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.phone-details h2 {
+    margin-top: 0;
+}
+
+.phone-price {
+    color: red;
+    /* margin-bottom: 10px; */
+}
+
+.add-to-cart {
+    background-color: transparent;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add-to-cart > img{
+    width: 60%;
+}
+
+.add-to-cart:hover {
+    background-color: darkgray;
+    /* Darker green color on hover */
+}
+
+#price_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* phone selling area ends here */
+
+/* right child css starts here */
+.right_child {
+    background-color: white;
+}
+
+#ads_div {
+    border: 10px lightgray;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 90%;
+}
+
+.our_services_content>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px dotted black;
+}
+
+.facebook_logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 15px;
+}
+
+.facebook_logo h1 {
+    font-weight: bold;
+}
+
+.like_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.text_facebook {
+    font-weight: bold;
+}
+
+.facebook_users {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+.facebook_users>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sub_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.add_button {
+    background-color: orange;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.phone_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 5px 10px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.phone_content>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.phone_content>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.phone_content>div>div button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.phone_content>div>button {
+    border: 0;
+    background-color: white;
+}
+
+.phone_content p {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* FOOTER CSS STARTS HERE */
+footer {
+    margin: 20px 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.foort_child_1 {
+    background-color: #333333;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_grand_child_1 {
+    padding: 10%;
+    display: flex;
+    height: 50%;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer_grand_child_1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer_grand_child_2 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    color: white;
+}
+
+.footer_grand_child_2 input {
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.footer_grand_child_2 svg {
+    margin: 5px;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.foort_child_2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.foort_child_2 p {
+    width: 35%;
+}
+
+.foort_child_2 div {
+    display: flex;
+    width: 35%;
+    justify-content: end;
+    align-items: center;
+}
+
+.foort_child_2 div svg {
+    height: 30px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* footer css end  */
+
+/* popup css starts here */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    z-index: 10;
+    background-color: gray;
+    display: none;
+}
+
+.closePopup {
+    float: right;
+}
+
+.myName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+}
